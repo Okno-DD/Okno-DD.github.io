@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.conteiner{
+    position: relative;
+    width: 1144px;
+    margin: 0 auto;
+}
+.header {
+    background: url(img/bg.png) center center/cover no-repeat;
+    padding: 0 0 61px 0;
+    height: 800px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.header_text {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1144px;
+    margin: 0 auto;
+    opacity: 10;
+}
+.main_text{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    color: #ffffff;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:  100;
+}
+
+
+.navbar a {
+    float:left;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #f2f2f2;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+.wrap{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.reg_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.cent{
+    margin: 0 auto;
+}
+.power {
+    background: url(img/bg_2.png) center center/cover no-repeat;
+    width: 100%;
+    padding-top: 120px;
+    height: 800px;
+}
+.body_text{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1144px;
+    margin: 0 auto;
+}
+.quark{
+    background: url(img/bg_3.png) center center/cover no-repeat;
+    width: 100%;
+    padding-top: 120px;
+    height: 800px;
+}
+.lepton{
+    background: url(img/bg_4.png) center center/cover no-repeat;
+    width: 100%;
+    padding-top: 120px;
+    height: 800px;
+}
+.hadron{
+    background: url(img/bg_5.png) center center/cover no-repeat;
+    width: 100%;
+    padding-top: 120px;
+    height: 800px;
+}
+.baryon{
+    background: url(img/bg_6.png) center center/cover no-repeat;
+    width: 100%;
+    padding-top: 120px;
+    height: 800px;
+}
+.who_made{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.wrapper{
+    background-color:black;
+
+}
+
+@media screen and (max-width: 1200px){
+    .conteiner{
+        width: 930px;
+    }
+    .header_text{
+        width: 90%;
+        height: 90%;
+    }
+    .body_text{
+        width: 90%;
+        height: 90%;
+    }
+    .navbar a {
+        padding: 10px 30px 10px 30px;
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .conteiner{
+        width: 720px;
+    }
+    .navbar a {
+        padding: 8px 30px 8px 30px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .conteiner{
+        width: auto;
+        padding: 20px;
+    }
+    .navbar a {
+        padding: 0px 10px 0px 10px;
+        font-size: 9px;
+    }
+    .navbar {
+        padding: 0 0 0 0;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 576px){
+    .conteiner{
+        width: auto;
+    }
+
+}
